@@ -20,7 +20,35 @@ body {
   }
 } */
 
-
+.carousel-control,
+.item{
+	border-radius:4px;
+}
+.caption{
+	height:130px;
+	overflow:hidden;
+}
+.capton h4{
+	white-space:nowrap;
+}
+.thumbnail img{
+	width:100%;
+}
+.ratings{
+	padding-right:10px;
+	padding-left:10px;
+	color:#333;
+}
+.thumbnail{
+	padding:0;
+}
+.thumbnail.caption-full{
+	padding:9px;
+	color:#333;
+}
+footer{
+	margin:0;
+}
 /*custom styling*/
 .wrapper{
 	min-height:100%;
@@ -37,3 +65,5 @@ body {
 	position:absolute;
 	bottom:-15px;
 }
+
+
